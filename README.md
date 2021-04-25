@@ -20,9 +20,11 @@ The idea is simple and intuitive: If one class has too few instances in the trai
 
 - The balanced accuracy score is 66%.
 
-- F1 score are low.
-
 ![1a](img/1a.png)
+
+- The high_risk precision is about 1% with 64% sensitivity which makes a F1 of 2% (trade-off)
+
+- The low_risk precision is about 100% with 68% sensitivity which makes a F1 of 68% (trade-off)
 
 - Accuracy: 66%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 64%, Low Risk: 68%
 
@@ -33,6 +35,10 @@ The idea is simple and intuitive: If one class has too few instances in the trai
 - The balanced accuracy score is 65%.
 
 ![2a](img/2a.png)
+
+- The high_risk precision is about 1% with 64% sensitivity which makes a F1 of 2% (trade-off)
+
+- The low_risk precision is about 100% with 66% sensitivity which makes a F1 of 80% (trade-off)
 
 Accuracy: 65%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 64%, Low Risk: 66%
 
@@ -48,6 +54,10 @@ Undersampling takes the opposite approach of oversampling. Instead of increasing
 
 ![3a](img/3a.png)
 
+- The high_risk precision is about 1% with 45% sensitivity which makes a F1 of 1% (trade-off)
+
+- The low_risk precision is about 100% with 61% sensitivity which makes a F1 of 62% (trade-off)
+
 - Accuracy: 65%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 61%, Low Risk: 45%
 
 ### Combination Sampling
@@ -62,6 +72,10 @@ As previously discussed, a downside of oversampling with SMOTE is its reliance o
 
 ![4a](img/4a.png)
 
+- The high_risk precision is about 1% with 45% sensitivity which makes a F1 of 1% (trade-off)
+
+- The low_risk precision is about 100% with 61% sensitivity which makes a F1 of 62% (trade-off)
+
 Accuracy: 53%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 61%, Low Risk: 45%
 
 ### Ensemble Learners
@@ -74,6 +88,10 @@ Accuracy: 53%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 61%,
 
 ![5a](img/5a.png)
 
+- The high_risk precision is about 7% with 94% sensitivity which makes a F1 of 14% (trade-off)
+
+- The low_risk precision is about 100% with 91% sensitivity which makes a F1 of 97% (trade-off)
+
 Accuracy: 79%, Precision: High Risk: 7%, Low Risk: 100%, Recall: High Risk: 94%, Low Risk: 91%
 
 #### Easy Ensemble AdaBoost Classifier
@@ -83,6 +101,10 @@ Accuracy: 79%, Precision: High Risk: 7%, Low Risk: 100%, Recall: High Risk: 94%,
 - The Ensemble Classifiers accuracy score is 93%.
 
 ![6a](img/6a.png)
+
+- The high_risk precision is about 7% with 94% sensitivity which makes a F1 of 14% (trade-off)
+
+- The low_risk precision is about 100% with 91% sensitivity which makes a F1 of 97% (trade-off)
 
 Accuracy: 93%, Precision: High Risk: 7%, Low Risk: 100%, Recall: High Risk: 94%, Low Risk: 91%
 
