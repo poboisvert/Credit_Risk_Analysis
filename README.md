@@ -12,11 +12,15 @@ The purpose of this projects is to evaluate machine learning models (Scikit-lear
 
 ### Oversampling
 
+The idea is simple and intuitive: If one class has too few instances in the training set, we choose more instances from that class for training until it's larger.
+
 #### Naive Random Oversampling
 
 ![1](img/1.png)
 
 - The balanced accuracy score is 66%.
+
+- F1 score are low.
 
 ![1a](img/1a.png)
 
@@ -34,6 +38,8 @@ Accuracy: 65%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 64%,
 
 ### Undersampling
 
+Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
+
 #### ClusterCentroids model to Predict Credit Risk
 
 ![3](img/3.png)
@@ -45,6 +51,8 @@ Accuracy: 65%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 64%,
 - Accuracy: 65%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 61%, Low Risk: 45%
 
 ### Combination Sampling
+
+As previously discussed, a downside of oversampling with SMOTE is its reliance on the immediate neighbors of a data point. Because the algorithm doesn't see the overall distribution of data, the new data points it creates can be heavily influenced by outliers. This can lead to noisy data. With downsampling, the downsides are that it involves loss of data and is not an option when the dataset is small. One way to deal with these challenges is to use a sampling strategy that is a combination of oversampling and undersampling.
 
 #### Ensemble Classifiers to Predict Credit Risk
 
@@ -66,13 +74,17 @@ Accuracy: 53%, Precision: High Risk: 1%, Low Risk: 100%, Recall: High Risk: 61%,
 
 ![5a](img/5a.png)
 
+Accuracy: 79%, Precision: High Risk: 7%, Low Risk: 100%, Recall: High Risk: 94%, Low Risk: 91%
+
 #### Easy Ensemble AdaBoost Classifier
 
 ![6](img/6.png)
 
+- The Ensemble Classifiers accuracy score is 93%.
+
 ![6a](img/6a.png)
 
-- The Ensemble Classifiers accuracy score is 93%.
+Accuracy: 93%, Precision: High Risk: 7%, Low Risk: 100%, Recall: High Risk: 94%, Low Risk: 91%
 
 ## Summary
 
