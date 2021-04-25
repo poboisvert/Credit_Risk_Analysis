@@ -16,9 +16,12 @@ The purpose of this projects is to evaluate machine learning models (Scikit-lear
 
 ![preview](img/1.png)
 
+![preview](img/1a.png)
+
 #### SMOTEENN algorithm to Predict Credit Risk
 
 ![preview](img/2.png)
+![preview](img/2a.png)
 
 ### Undersampling
 
@@ -26,11 +29,16 @@ The purpose of this projects is to evaluate machine learning models (Scikit-lear
 
 ![preview](img/3.png)
 
+- The balanced accuracy score is 66%.
+
+![preview](img/3a.png)
+
 ### Combination Sampling
 
 #### Ensemble Classifiers to Predict Credit Risk
 
 ![preview](img/4.png)
+![preview](img/4a.png)
 
 ### Ensemble Learners
 
